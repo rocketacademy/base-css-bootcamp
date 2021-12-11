@@ -1,3 +1,88 @@
-body{
-  background-color:pink;
+body {
+  background-color: white;
+}
+h1 {
+  text-align: left;
+}
+h2 {
+  text-align: left;
+}
+
+.top-Story {
+  display: block;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: bold;
+}
+.top-Stories {
+  display: block;
+  border-bottom: 1px solid grey;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: bold;
+}
+h3 {
+  font-size: larger;
+  margin-top: -5px;
+}
+p {
+  color: grey;
+  font-size: small;
+  font-family: sans-serif;
+  margin-top: -5px;
+}
+img {
+  margin: auto;
+  width: 100%;
+}
+
+.subsection {
+  color: grey;
+  font-size: large;
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  padding: 3px;
+}
+
+.subsection1 {
+  color: grey;
+  font-size: large;
+  border-bottom: 0.5px solid black;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  padding: 3px;
+}
+
+.headlines {
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+  position: relative;
+  left: 200px;
+}
+.headline {
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+  position: relative;
+  left: 280px;
+}
+.links {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 5px;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+.float-left {
+  display: flex;
+  flex-direction: row;
 }
