@@ -1,3 +1,59 @@
-body{
+/* body{
   background-color:pink;
+} */
+
+body {
+  font-family: "SelaneWebSTTwenty", Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  background-color: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.link {
+  text-align: right;
+}
+
+.headline-section {
+  text-align: center;
+}
+
+input {
+  display: inline-block;
+  font-family: "Curator", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  height: 30px;
+  border: 1px solid rgba(114, 127, 142, 0.5);
+  border-radius: 15px 0px 0 15px;
+  padding: 5px 15px;
+  width: calc(100% - 80px);
+  max-width: 450px;
+  vertical-align: top;
+}
+
+.cta-submit {
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Curator", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 14px;
+  color: #fff !important;
+  background: #0c2b57;
+  padding: 8px 15px;
+  border: 0;
+  height: 30px;
+  width: auto;
+  vertical-align: top;
+  margin-left: -4px;
+  border-radius: 0 15px 15px 0;
 }
